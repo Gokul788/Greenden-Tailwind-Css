@@ -9,6 +9,11 @@
 
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
+
+     <!--Js link-->
+     <script src="function.js" defer></script>
+   
+
     <style>
         /* Custom background image */
         .bg-contact {
@@ -22,7 +27,7 @@
      <nav class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-10">
         <h1 class="text-2xl font-medium">GREENDEN</h1>
 
-        <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+        <svg  id="silde" class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
             style="fill: rgba(0, 0, 0, 1);transform: 1;">
             <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
         </svg>
@@ -40,7 +45,18 @@
 
         </ul>
     </nav>
-
+   
+    <div id="popbar" class="bg-black w-3/6 
+top-0 right-0 z-20 fixed h-full text-white p-5 flex justify-between   transition-all duration-1000" style="right: -50%;">
+    <ul class="flex flex-col gap-5">
+        <a href="index.html" class="text-green-50 hover: text-white">Home </a>
+        <a href="product.html"  class="text-green-50 hover: text-white">Products </a>
+        <a href="contact.html" class="text-green-50 hover: text-white">Contact </a>
+    </ul>
+    <div>
+        <p id="del" class="cursor-pointer">X</p>
+    </div>
+</div>
     <section class="relative bg-contact bg-cover bg-center h-screen text-white">
         <!-- Overlay for better text visibility -->
         <div class="absolute inset-0 bg-black opacity-50"></div>
