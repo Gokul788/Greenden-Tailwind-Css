@@ -11,6 +11,7 @@
      
      <!--Js link-->
      <script src="function.js" defer></script>
+     <script src="product.js" defer></script>
    
 </head>
 <body>
@@ -55,14 +56,14 @@ top-0 right-0 z-20 fixed h-full text-white p-5 flex justify-between   transition
     <div class="bg-gray-100 p-4">
         <div class="text-center">
             <p class="font-bold text-3xl text-center mt-7">Our Product</p>
-            <input type="text" placeholder="Search for a Product..." class="w-10/12 mt-3 py-2 border border-gray-300 rounded-md shadow-sm 
+            <input id="Search" type="text" placeholder="Search for a Product..." class="w-10/12 mt-3 py-2 border border-gray-300 rounded-md shadow-sm 
                 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 inline  pl-2 md:ml-5 md:w-3/4">
         </div>
-        <div class=" grid grid-cols-2 mt-5 md:grid-cols-4 z-0">
+        <div id="container-pro" class=" grid grid-cols-2 mt-5 md:grid-cols-4 z-0">
             <div class="text-center m-2">
                 <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="Images/photob-1.png"
                     alt="foorer">
-                <p>Rose pot</p>
+                <h1>Rose pot</h1>
                 <p>$30</p>
                 <div>
                     <button onclick="document.location ='payment.html'" class="bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow-md transition-transform transform hover:scale-110 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-300 mt-2">
@@ -73,7 +74,7 @@ top-0 right-0 z-20 fixed h-full text-white p-5 flex justify-between   transition
             <div class="text-center m-2 ">
                 <img class="inline  hover:shadow-xl transform hover:-translate-y-2" src="Images/photob-2.png"
                     alt="foorer">
-                <p>Lotus</p>
+                <h1>Lotus</h1>
                 <p>$40</p>
                 <div>
                     <button onclick="document.location ='payment.html'" class="bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow-md transition-transform transform hover:scale-110 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-300 mt-2">
@@ -84,7 +85,7 @@ top-0 right-0 z-20 fixed h-full text-white p-5 flex justify-between   transition
             <div class="text-center  m-2">
                 <img class="inline  hover:shadow-xl transform hover:-translate-y-2" src="Images/photob-3.png"
                     alt="foorer">
-                <p>Sunflower</p>
+                <h1>Sunflower</h1>
                 <p>$50</p>
                 <div>
                     <button onclick="document.location ='payment.html'" class="bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow-md transition-transform transform hover:scale-110 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-300 mt-2">
@@ -95,7 +96,7 @@ top-0 right-0 z-20 fixed h-full text-white p-5 flex justify-between   transition
             <div class="text-center m-2 ">
                 <img class="inline  hover:shadow-xl transform hover:-translate-y-2" src="Images/photob-4.png"
                     alt="foorer">
-                <p>Viola flower</p>
+                <h1>Viola flower</h1>
                 <p>$10</p>
                 <div>
                     <button onclick="document.location ='payment.html'" class="bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow-md transition-transform transform hover:scale-110 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-300 mt-2">
@@ -106,7 +107,7 @@ top-0 right-0 z-20 fixed h-full text-white p-5 flex justify-between   transition
             <div class="text-center m-2">
                 <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="Images/photob-5.png"
                     alt="foorer">
-                <p>Purple Dragon</p>
+                <h1>Purple Dragon</h1>
                 <p>$30</p>
                 <div>
                     <button onclick="document.location ='payment.html'" class="bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow-md transition-transform transform hover:scale-110 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-300 mt-2">
@@ -117,7 +118,7 @@ top-0 right-0 z-20 fixed h-full text-white p-5 flex justify-between   transition
             <div class="text-center m-2 ">
                 <img class="inline  hover:shadow-xl transform hover:-translate-y-2" src="Images/photob-6.png"
                     alt="foorer">
-                <p>Lover Rose</p>
+                <h1>Lover Rose</h1>
                 <p>$32</p>
                 <div>
                     <button onclick="document.location ='payment.html'" class="bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow-md transition-transform transform hover:scale-110 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-300 mt-2">
@@ -128,7 +129,7 @@ top-0 right-0 z-20 fixed h-full text-white p-5 flex justify-between   transition
             <div class="text-center  m-2">
                 <img class="inline  hover:shadow-xl transform hover:-translate-y-2" src="Images/photob-7.png"
                     alt="foorer">
-                <p>Yellow Ball</p>
+                <h1>Yellow Ball</h1>
                 <p>$80</p>
                 <div>
                     <button onclick="document.location ='payment.html'" class="bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow-md transition-transform transform hover:scale-110 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-300 mt-2">
@@ -139,7 +140,7 @@ top-0 right-0 z-20 fixed h-full text-white p-5 flex justify-between   transition
             <div class="text-center m-2 ">
                 <img class="inline  hover:shadow-xl transform hover:-translate-y-2" src="Images/photob-8.png"
                     alt="foorer">
-                <p>Nothing</p>
+                <h1>Nothing</h1>
                 <p>$5</p>
                 <div>
                     <button onclick="document.location ='payment.html'" class="bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow-md transition-transform transform hover:scale-110 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-300 mt-2">
