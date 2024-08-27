@@ -1,6 +1,6 @@
 var containerpro = document.getElementById("container-pro")
 var search = document.getElementById("Search")
-var divlist = containerpro.querySelectorAll("div")
+var divlist = containerpro.querySelectorAll("#go")
 
 
 search.addEventListener("keyup",function(){
